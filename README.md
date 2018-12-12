@@ -1,10 +1,10 @@
-## Installation of Anaconda distribution on Linux OS
+## Installation of Anaconda distribution on Ubuntu 18.04
 
 * Refer to the following website for instructions on how to install the anaconda distribution on Linux OS: http://docs.anaconda.com/anaconda/install/linux/
 
-## Post-Installation of Anaconda distribution of Linux OS
+## Post-Installation of Anaconda distribution of Ubuntu 18.04
 
-* To avoid strange errors during installation of new python packages using conda, run the following two commands in a shell
+* To avoid strange errors during installation of new python packages using conda, run the following two commands in the terminal:
 
 	* `conda upgrade conda`
 	* `conda upgrade --all`
@@ -18,15 +18,15 @@
 
 * Note that -y simply means install without prompts --> This flag is optional
 
-## Installing matplotlib (if needed)
+## Installing matplotlib
 
-* Some practice examples that you may encounter that uses the standard scientific Python suite (like the one that comes with the Anaconda distribution) might make use of this library to plot graphs. In the context of deep learning, matplotlib can be used to plot graphs that represent the accuracy metrics related to the performance of neural networks created.
+* The matplotlib is a module that comes as part of the standard scientific Python suite (like the one that comes with the Anaconda distribution). Some deep learning related code samples which you may encounter might make use of this modul to plot graphs to portray the accuracy metrics measuring the performance of the deep learning neural network model created.
 
-* Though this module comes pre-installed with Anaconda, either the previous two steps might have corrupted the module or the module was not properly installed by Anaconda (version 5.3.1). In any case, if you try to use matplotlib in your code and it gives you error saying it can't find the module, run the following:
+* Though this module comes pre-installed with Anaconda, either the previous two steps might have corrupted the module or the module was not properly installed by Anaconda (the latest version 5.3.1 as of the time of this writing). In any case, if you try to use matplotlib in your code and it gives you error saying it can't find the module, run the following:
 
 	* `conda install -f matplotlib -y`
 
-* Note that -y simply means install without prompts -- This flag is optional
+* Note that -y simply means install without prompts --> This flag is optional
 
 ## Starting Jupyter Notebook on your local machine
 
@@ -45,6 +45,9 @@
 	
 	```shell
 	#!/bin/bash
+	#
+	# Name of script: start.sh
+	#
 	
 	cd /path/to/project_root_dir
 	jupyter notebook

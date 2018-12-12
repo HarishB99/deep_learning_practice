@@ -1,0 +1,6 @@
+**/train/**
+**/test*/**
+**/validation/**
+**/*.zip
+**/*.txt
+**/*.jpg
