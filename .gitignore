@@ -5,3 +5,4 @@
 **/*.txt
 **/*.jpg
 application_of_ai_in_cyber_security/images/*
+**/__pycache__/**
