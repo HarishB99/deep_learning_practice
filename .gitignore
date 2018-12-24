@@ -4,5 +4,5 @@
 **/*.zip
 **/*.txt
 **/*.jpg
-**/images*/*
+**/image*/*
 **/__pycache__/**
