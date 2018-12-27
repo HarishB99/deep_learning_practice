@@ -31,7 +31,8 @@ def convert(filename):
             byte_arr = np.asarray(byte_arr)
             np_arr = np.reshape(byte_arr, (len(byte_arr)//width, width))
             np_arr = np.uint8(np_arr)
-            return np_arr
+            img = Image.fromarray(np_arr)
+            return img
     except EnvironmentError as error:
         print('Error in convert_bytes_to_image.convert(): ', error.strerror)
-
+        
