@@ -28,6 +28,42 @@
 
 * Note that -y simply means install without prompts --> This flag is optional
 
+## Installing imbalanced-learn
+
+* The imbalanced-learn module was used in this project as the dataset itself was imbalanced. In other words, for the malware classification task that was to be performed by the neural netowkr, the dataset containing malware samples didi not contain equal number of samples of each family.
+
+* In this case, imbalanced-learn module has methods to oversample and undersample the data so that the neural network can look at more or less equal number of samples of each malware family, hence, increasing the classification accuracy of the neural network model as it is able to learn the associations more accurately.
+
+* To install imbalanced-learn using conda, run the following:
+
+	* `conda install -c conda-forge imbalanced-learn -y`
+
+* Note that if the above does not work, try the other alternative commands listed [here](https://anaconda.org/conda-forge/imbalanced-learn/)
+
+* Also note that -y simply means install without prompts --> This flag is optional
+
+## Installing pandas
+
+* The pandas module was mainly used in this project to read in files of thee csv format
+
+* Although this can be done manualyy using the already available built-in methods in Python, reading csv files using the pandas module makes the process more convenient
+
+* To install pandas using conda, run the following:
+
+	* `conda install -c anaconda pandas`
+
+* Note that -y simply means install without prompts --> This flag is optional
+
+## Installing scikit-learn
+
+* The scikit-learn module was mainly used in this project to measure the confusion matrix of the predicted results of the neural network model, one of the metrics that was used to evaluate the performance of the model
+
+* To install it using conda, run the following:
+
+	* `conda install -c anaconda scikit-learn`
+
+* Note that -y simply means install without prompts --> This flag is optional
+
 ## Starting Jupyter Notebook on your local machine
 
 * Running the installation script for Anaconda 5.3.1 installs Jupyter Notebook for you by default
