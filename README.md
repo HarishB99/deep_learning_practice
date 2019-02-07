@@ -24,7 +24,8 @@
 
 * Though this module comes pre-installed with Anaconda, either the previous two steps might have corrupted the module or the module was not properly installed by Anaconda (the latest version 5.3.1 as of the time of this writing). In any case, if you try to use matplotlib in your code and it gives you error saying it can't find the module, run the following:
 
-	* `conda install -f matplotlib -y`
+	* ~~`conda install -f matplotlib -y`~~
+	* `conda install --force-reinstall matplotlib -y` --> For later versions of Anaconda released since December 2018
 
 * Note that -y simply means install without prompts --> This flag is optional
 
