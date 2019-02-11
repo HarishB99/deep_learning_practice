@@ -87,7 +87,7 @@
 
 ## Starting Jupyter Notebook on your local machine
 
-* Running the installation script for Anaconda 5.3.1 installs Jupyter Notebook for you by default
+* Running the installation script for Anaconda installs Jupyter Notebook for you by default
 
 * To start this application on your project's root directory, run the following:
 
