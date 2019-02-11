@@ -1,8 +1,0 @@
-**/train/**
-**/test*/**
-**/validation/**
-**/*.zip
-**/*.txt
-**/*.jpg
-**/image*/*
-**/__pycache__/**
