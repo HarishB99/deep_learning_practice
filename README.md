@@ -65,6 +65,26 @@
 
 * Note that -y simply means install without prompts --> This flag is optional
 
+## Activating and deactivating conda environment
+
+* The conda environment is where your Python notebooks and codes are usually executed. It contains all the python packages that has been installed onto the computer.
+
+* To activate it, run the following:
+
+	* `conda activate`
+
+* To deactivate it, simply run the following:
+	
+	* `conda deactivate`
+
+* If your conda environment has been activated, you should be able to see your terminal prompt change, like so:
+	
+	* `(<conda environment name>) user@domain $`
+
+* For example, the default and main conda environment is named 'base':
+	
+	* `(base) student@localhost $`
+
 ## Starting Jupyter Notebook on your local machine
 
 * Running the installation script for Anaconda 5.3.1 installs Jupyter Notebook for you by default
